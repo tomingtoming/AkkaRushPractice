@@ -18,6 +18,7 @@ javaOptions += "-server"
 libraryDependencies ++= {
   val liftVersion = "2.6-M4"
   Seq(
+    "com.typesafe.akka" %% "akka-actor" % "2.4.1",
     "ch.qos.logback" % "logback-classic" % "1.1.3"
   )
 }
